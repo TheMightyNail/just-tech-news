@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/TheMightyNail/just-tech-news#readme",
   "dependencies": {
+    "bcrypt": "^5.0.1",
     "dotenv": "^16.0.0",
     "express": "^4.17.2",
     "mysql2": "^2.3.3",
