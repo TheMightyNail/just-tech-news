@@ -37,7 +37,7 @@ router.get('/:id', (req, res) => {
               as: 'voted_posts'
             }
           ],
-        // attributes: { exclude: ['password'] },
+        attributes: { exclude: ['password'] },
         where: {
             id: req.params.id
         }
